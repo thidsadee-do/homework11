@@ -67,7 +67,8 @@ function Counter({ onIncrement, onDecrement, onReset, onRemove, count }) {
   
     return (
       <>
-        <h1 className="text-center1">Codecamp Academy 01:Thidsadee xayyasone SNRU</h1>
+        <h1 className="text-center1">Codecamp Academy 01</h1>
+        <h1>Thidsadee xayyasone</h1>
         <button className="text-center" onClick={addCounter}>Add Counter</button>
         <SumInfo color="black" size="big" sum={getTotalSum()} />
         {counters.map((count, index) => (

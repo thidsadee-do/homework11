@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+.suminfo {
+    text-align: center;
+    font-style: normal;
+}
+
+.counter {
+    display: flex;
+    align-items: baseline;
+    height: 80px;
+    width: 300px;
+    margin: 1rem auto;
+    text-align: center;
+    padding: 10px;
+    border: 1px ;
+  }
+.counter > * {
+    height: 100%;
+    flex: 1;
+    font-size: 24px;
+}
+.text-center1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: normal;
+
+}
+.text-center {
+    display: inline;
+    justify-items: auto;
+    background-color: #bdb5d3;
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #bdb5d3;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.text-center:hover {background-color: #45b082}
+
+.text-center:active {
+    background-color: #45b082;
+    box-shadow: 0 5px #b4b4b4;
+    transform: translateY(4px);
+  }
+
+.button {
+    margin-left: 5px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #bdb5d3;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+.button:hover {background-color: #45b082}
+  
+.button:active {
+    background-color: #45b082;
+    box-shadow: 0 5px #b4b4b4;
+    transform: translateY(4px);
+  }
+.button2 {
+  margin-left: 5px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #bdb5d3;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.button2:hover {background-color: #cd2443 }
+  
+.button2:active {
+    background-color: #b44b43;
+    box-shadow: 0 5px #b4b4b4;
+    transform: translateY(4px);
+  }
